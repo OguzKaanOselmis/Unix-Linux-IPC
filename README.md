@@ -4,15 +4,20 @@ Unix/Linux IPC Implementation With Mailbox
 This project implements Unix/Linux IPC with Mailbox in C language.
 
 Compile codes:
+
 gcc -pthread -o server -g server.c -lm
+
 gcc -pthread -o client -g client.c -lm
 
 Run codes:
 Firstly you should run server:
+
 ./server
 
 Then you can run clients as many as you want. You should give a argument to run code that specifies client_id:
+
 ./client <client_id>
+
 Id can be either a number or a word
 
 Details:
