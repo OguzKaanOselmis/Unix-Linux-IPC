@@ -1,6 +1,8 @@
 # Unix-Linux-IPC
 Unix/Linux IPC Implementation With Mailbox
 
+To understand Unix/Linux IPC, Mailbox, Multithreading and Pthreads better.
+
 This project implements Unix/Linux IPC with Mailbox in C language.
 
 Compile codes:
